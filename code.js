@@ -34,7 +34,9 @@ function getWeatherData(){
 function updateWeatherData(data){
     const sunRise = new Date(data.sys.sunrise * 1000);
     const sunSet = new Date(data.sys.sunset * 1000);
+    const date = dayjs();
 
+    document.getElementById("date").innerHTML = date.format("YYYY-MM-DD HH:mm");
     document.getElementById("temp").innerHTML = data.main.temp + " °C";
     document.getElementById("humidity").innerHTML = data.main.humidity + " %";
     document.getElementById("pressure").innerHTML = data.main.pressure + " hPa";
