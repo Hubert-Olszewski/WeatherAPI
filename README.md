@@ -2,7 +2,7 @@
 
 ## Table of contents
 * [General info](#general-info)
-* [Setup](#setup)
+* [Status](#status)
 
 ## General info
 #### Simple web application to checking weather in your localization
