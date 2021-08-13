@@ -6,7 +6,7 @@
 * [Status](#status)
 
 ## General info
-#### Simple web application to checking weather in your localization
+#### A simple web application to check the weather in your location
 
 ## Run application
 #### You can run it with this https://myweather-api.netlify.app/
