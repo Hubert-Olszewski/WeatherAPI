@@ -8,4 +8,4 @@
 #### Simple web application to checking weather in your localization
 
 ## Status
--Finished
+- Finished
